@@ -1,0 +1,143 @@
+/* Basic Reset */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add more global styles or override inline styles here */
+/* style.css (or you can add these styles within <style> tags in your HTML) */
+
+    /* Basic Reset (if not already included) */
+    body, h1, h2, h3, h4, p, ul, li, table, thead, tbody, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    ul {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+        color: #007bff;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    /* Container for the entire page */
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: #bb16a8;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Section styling */
+    .section {
+        margin-bottom: 30px;
+        padding: 20px;
+        border: 1px solid #164e0a;
+        border-radius: 5px;
+        background-color: #12bfe2;
+    }
+    
+    /* Academic Achievements heading */
+    .section h2 {
+        color: #5f941b;
+        margin-bottom: 20px;
+        border-bottom: 2px solid #13e71d;
+        padding-bottom: 10px;
+        text-align: left; /* Adjust if needed */
+    }
+    
+    /* Semester grades heading */
+    .section h3 {
+        color: #555555;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        text-align: left; /* Adjust if needed */
+    }
+    
+    /* 1st and 2nd Semester subheadings */
+    .section h4 {
+        color: #4e06c3;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        text-align: left; /* Adjust if needed */
+    }
+    
+    /* Grades table styling */
+    .grades-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .grades-table th, .grades-table td {
+        border: 1px solid #8328cd;
+        padding: 8px;
+        text-align: left;
+    }
+    
+    .grades-table th {
+        background-color: #dbed0e;
+        font-weight: bold;
+    }
+    
+    /* Grade colors */
+    .grade-a {
+        color: green;
+        font-weight: bold;
+    }
+    
+    .grade-b-plus {
+        color: orange;
+        font-weight: bold;
+    }
+    
+    /* You can add more grade-specific colors if needed */
+    /* .grade-b { color: blue; font-weight: bold; } */
+    /* .grade-c { color: purple; font-weight: bold; } */
+    
+    /* Back to Portfolio link (if you want to add one here) */
+    .back-link {
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .back-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #e62f2f;
+        color: rgb(29, 204, 204);
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    
+    .back-button:hover {
+        background-color: #1bd014;
+    }
+    
+    /* Add any other specific styles for the academics section here */
